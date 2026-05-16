@@ -3,9 +3,9 @@ import "./App.css";
 
 import Title from "./components/Title";
 import Sidebar from "./components/Sidebar";
-import Articles from "./components/Articles";
+import Articles from "./components/Articles.jsx";
 
-const API_KEY = "YOUR_API_KEY_HERE";
+const API_KEY = "MzF474tgMsTOlMpb5FPmneofRkgcTZIBw0r0kcTEWtaiJqSS";
 
 const filterLabels = {
   viewed: "Most Viewed",
