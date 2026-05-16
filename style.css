@@ -39,6 +39,8 @@ padding: 20px;
  border: 4px solid #000000;
  border-radius: 8px;
  flex: 1;
+ display: grid;
+
 }
 .articlecard{
   border: 3px solid #000000;
@@ -48,6 +50,7 @@ padding: 20px;
   margin-bottom: 10px;
   background-color: #9f9292;
   display: flex;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .articleimg{
@@ -85,6 +88,10 @@ body{
 
 .filter{
   width:auto;
+}
+.articles{
+  box-sizing: border-box;
+  grid-template-columns: 1fr;
 }
 
 .articleimg{
